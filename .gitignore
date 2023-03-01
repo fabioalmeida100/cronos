@@ -1,0 +1,18 @@
+# Pastas
+node_modules/
+dist/
+coverage/
+tmp/
+logs/
+
+# Arquivos
+*.log
+*.pid
+*.swp
+.env
+.env.local
+.env.*.local
+.env.build
+.env.test
+.env.production
+.DS_Store
