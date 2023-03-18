@@ -15,4 +15,5 @@ logs/
 .env.build
 .env.test
 .env.production
+package-lock.json
 .DS_Store
