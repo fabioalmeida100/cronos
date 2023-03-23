@@ -1,10 +1,10 @@
-import { Logger } from '../utils/LoggerConsole';
+import { LoggerConsole } from '../utils/LoggerConsole';
 import AbstractCronJob from '../basetype/AbstractCronJob'
 import axios from 'axios';
 
 export default class SampleJobHello extends AbstractCronJob {
   constructor(schedulePattern: string) {
-    super(schedulePattern, "Sample Job Hello", new Logger());
+    super(schedulePattern, "Sample Job Hello", new LoggerConsole());
   }
 
   public async doJob(): Promise<void> {

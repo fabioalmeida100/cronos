@@ -4,6 +4,6 @@
     "compilerOptions": {
       "module": "esnext",
       "moduleResolution": "node",
-      "types": ["node"]
+    "types": ["node", "jest"]
     }
 }
