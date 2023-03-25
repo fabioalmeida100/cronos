@@ -1,5 +1,7 @@
 # Cronos: a cron-like job scheduler for the web
 
+[![Build status](https://github.com/fabioalmeida100/cronos/actions/workflows/nodejs.yml/badge.svg)](https://github.com/fabioalmeida100/cronos/actions/workflows/nodejs.yml)
+
 Cronos is a job scheduler for the web. It is a simple, lightweight, and easy to use job scheduler that can be used to schedule jobs to run at a specific time or interval. 
 
 ## Implementation
